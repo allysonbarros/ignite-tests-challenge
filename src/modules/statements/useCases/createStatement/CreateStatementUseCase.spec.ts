@@ -10,7 +10,7 @@ let createStatementUseCase: CreateStatementUseCase;
 let inMemoryStatementsRepository: InMemoryStatementsRepository;
 let inMemoryUsersRepository: InMemoryUsersRepository;
 
-describe("Show User Profile", () => {
+describe("Create Statement", () => {
     beforeEach(async () => {
         inMemoryStatementsRepository = new InMemoryStatementsRepository();
         inMemoryUsersRepository = new InMemoryUsersRepository();

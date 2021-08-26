@@ -9,7 +9,7 @@ let getBalanceUseCase: GetBalanceUseCase;
 let inMemoryStatementsRepository: InMemoryStatementsRepository;
 let inMemoryUsersRepository: InMemoryUsersRepository;
 
-describe("Show User Profile", () => {
+describe("Show User's Balance", () => {
     beforeEach(async () => {
         inMemoryStatementsRepository = new InMemoryStatementsRepository();
         inMemoryUsersRepository = new InMemoryUsersRepository();
